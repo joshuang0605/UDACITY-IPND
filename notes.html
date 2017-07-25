@@ -35,29 +35,30 @@
     </div>
 
     <!--MAIN CONTENT-->
-    <div>
-      <h1 id="Lesson1">Lesson 1: How does the Internet works?</h1>
-        <h2 id="Lesson1-1">- How do computers communicate via the Internet?</h2>
-          <p>Most pages are written using the same language, HTML, which is passed around using a common protocol — HTTP (Hyper Text Transfer Protocol)</p>
-          <p>HTTP lays out these ground rules for the Internet. Because of HTTP, a client machine (like your computer) knows that it has to be the one to initiate a request for a web page; it sends this request to a server. A server is a computer where web sites reside — when you type a web address into your browser, a server receives your request, finds the web page you want, and sends it back to your computer to be displayed in your web browser.</p>
-        <h2 id="Lesson1-2">- URL, DNS, Internet Protocol, Request/Response Cycle</h2>
-          <img src="https://www.w3.org/wiki/images/1/1d/Article3.gif" alt="Request/Response Cycle">
-          <p>Typing the URL (Universal Resource Locator) aka Web Address of a web page <a href="www.udacity.com">Udacity</a> for example in your Web Browser. Web browsers actually don’t use URLs to request web sites from servers; they use Internet Protocol or IP addresses. IP address of Udacity.com is <span class="blurry">45.79.141.183</span>(figure it out yourself :D)</p>
-          <p>DNS (Domain Name System), which is a comprehensive automatic directory of all of the machines connected to the Internet is the system that makes it work</p>
-          <p>Not every DNS server has a listing for every <em>machine?</em> online, so there’s a system in place where your request will be referred on to another name server to fulfill your request, if the first one doesn't have the right information<br><em><a href="http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm">See details</a></em></p>
-    </div>
+      <div class="lesson">
+        <!--(Normally, <h1> tag are intended for the very first main title only, read http://www.webpagemistakes.ca/heading-hierarchy/)-->
+        <h2 id="Lesson1" class="lesson-title">Lesson 1: How does the Internet works?</h2>
+          <h3 id="Lesson1-1">- How do computers communicate via the Internet?</h3>
+            <p class="lesson-content">Most pages are written using the same language, HTML, which is passed around using a common protocol — HTTP (Hyper Text Transfer Protocol)</p>
+            <p class="lesson-content">HTTP lays out these ground rules for the Internet. Because of HTTP, a client machine (like your computer) knows that it has to be the one to initiate a request for a web page; it sends this request to a server. A server is a computer where web sites reside — when you type a web address into your browser, a server receives your request, finds the web page you want, and sends it back to your computer to be displayed in your web browser.</p>
+          <h3 id="Lesson1-2">- URL, DNS, Internet Protocol, Request/Response Cycle</h3>
+            <img src="https://www.w3.org/wiki/images/1/1d/Article3.gif" alt="Request/Response Cycle">
+            <p class="lesson-content">Typing the URL (Universal Resource Locator) aka Web Address of a web page <a href="www.udacity.com">Udacity</a> for example in your Web Browser. Web browsers actually don’t use URLs to request web sites from servers; they use Internet Protocol or IP addresses. IP address of Udacity.com is <span class="blurry">45.79.141.183</span>(figure it out yourself :D)</p>
+            <p class="lesson-content">DNS (Domain Name System), which is a comprehensive automatic directory of all of the machines connected to the Internet is the system that makes it work</p>
+            <p class="lesson-content">Not every DNS server has a listing for every <em>machine?</em> online, so there’s a system in place where your request will be referred on to another name server to fulfill your request, if the first one doesn't have the right information<br><em><a href="http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm">See details</a></em></p>
+      </div>
 
-    <div>
-      <h1 id="Lesson2">Lesson 2: Basics of HTML</h1>
-        <h2 id="Lesson2-1">- Coding Resouce for HTML Learning</h2>
-        <h2 id="Lesson2-2">- Notes on building HTML structure</h2>
-    </div>
+      <div class="lesson">
+        <h2 id="Lesson2" class="lesson-title">Lesson 2: Basics of HTML</h2>
+          <h3 id="Lesson2-1">- Coding Resouce for HTML Learning</h3>
+          <h3 id="Lesson2-2">- Notes on building HTML structure</h3>
+      </div>
 
-    <div>
-      <h1 id="Lesson3">Lesson 3: Basics of CSS</h1>
-        <h2 id="Lesson3-1">- Simple CSS Layouts</h2>
-        <h2 id="Lesson3-2">- CSS Tricks for Beginners</h2>
-    </div>
+      <div class="lesson">
+        <h2 id="Lesson3" class="lesson-title">Lesson 3: Basics of CSS</h2>
+          <h3 id="Lesson3-1">- Simple CSS Layouts</h3>
+          <h3 id="Lesson3-2">- CSS Tricks for Beginners</h3>
+      </div>
 
   </body>
 </html>

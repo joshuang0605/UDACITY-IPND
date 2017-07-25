@@ -1,12 +1,20 @@
-body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-}
-
 .blurry {
   color: transparent;
   text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
+
+.lesson {
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.lesson-title {
+  text-shadow: 1px 1px 1px #000;
+}
+
+.lesson-content {
+  font-weight: 200;
+}
+
 
 /* FLUID TYPOGRAPHY TRICK     */
 html {
